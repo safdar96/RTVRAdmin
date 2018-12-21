@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "845811835978",
+    "firebase_url": "https://anpr-7211a.firebaseio.com",
+    "project_id": "anpr-7211a",
+    "storage_bucket": "anpr-7211a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845811835978:android:2087170bc94f62af",
+        "android_client_info": {
+          "package_name": "com.example.safdar.rtvradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845811835978-vagvmsik19a9rcjd5ss58on38hfmgjh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safdar.rtvradmin",
+            "certificate_hash": "42c8e7f96bf54a0e4bbc113bc0614a2228dfc617"
+          }
+        },
+        {
+          "client_id": "845811835978-6tsc6atas5njo5vm2bjb1e3j5hvnbqmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRpi85fFLjqYgQvuJN2ALBdxT7ZeBfEUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845811835978-6tsc6atas5njo5vm2bjb1e3j5hvnbqmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

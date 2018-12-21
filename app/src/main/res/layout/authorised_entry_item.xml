@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
+    android:background="@drawable/border2"
+    android:padding="4dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/owner_label"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner: "
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/owner"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="@+id/owner_label"
+        app:layout_constraintStart_toEndOf="@+id/owner_label"
+        app:layout_constraintTop_toTopOf="@+id/owner_label"
+        tools:text="Mr John Wick" />
+
+    <TextView
+        android:id="@+id/license_no_label"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="License no: "
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/owner" />
+
+    <TextView
+        android:id="@+id/unauth_license_no"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/license_no_label"
+        app:layout_constraintStart_toEndOf="@+id/license_no_label"
+        app:layout_constraintTop_toTopOf="@+id/license_no_label"
+        tools:text="X000XX" />
+
+    <TextView
+        android:id="@+id/time_label"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Time: "
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unauth_license_no" />
+
+    <TextView
+        android:id="@+id/unauth_time"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/time_label"
+        app:layout_constraintStart_toEndOf="@+id/time_label"
+        app:layout_constraintTop_toTopOf="@+id/time_label"
+        tools:text="2:32 AM" />
+
+    <TextView
+        android:id="@+id/date_label"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Date: "
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unauth_time" />
+
+    <TextView
+        android:id="@+id/unauth_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/date_label"
+        app:layout_constraintStart_toEndOf="@+id/date_label"
+        app:layout_constraintTop_toTopOf="@+id/date_label"
+        tools:text="22nd dec 2018" />
+</android.support.constraint.ConstraintLayout>
